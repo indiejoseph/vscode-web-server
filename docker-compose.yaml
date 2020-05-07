@@ -52,3 +52,7 @@ services:
     environment:
       - TZ=Asia/Hong_Kong
     restart: unless-stopped
+
+ volumes: 
+    code-project:
+    code-file:
